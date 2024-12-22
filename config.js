@@ -42,7 +42,7 @@ global.scan = "https://kgtech-v2-session.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "levanter_23c30a6bad6879412f9a47b5531ca07beb"
+  "levanter_23c30a6bad6879412f9a47b5531ca07beb";
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
